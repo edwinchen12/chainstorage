@@ -5,7 +5,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coinbase/chainstorage/internal/config"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/fx"
