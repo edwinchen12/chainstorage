@@ -9,6 +9,7 @@ option go_package = "github.com/coinbase/chainstorage/protos/coinbase/c3/common"
 enum Blockchain {
     BLOCKCHAIN_UNKNOWN = 0;
     BLOCKCHAIN_SOLANA = 11;
+    BLOCKCHAIN_BASE = 56;
     BLOCKCHAIN_BITCOIN = 16;
     BLOCKCHAIN_ETHEREUM = 17;
     BLOCKCHAIN_DOGECOIN = 26;
@@ -26,6 +27,9 @@ enum Network {
 
     NETWORK_SOLANA_MAINNET = 22;
     NETWORK_SOLANA_TESTNET = 23;
+
+    NETWORK_BASE_MAINNET = 123;
+    NETWORK_BASE_GOERLI = 125;
 
     NETWORK_BITCOIN_MAINNET = 33;
     NETWORK_BITCOIN_TESTNET = 34;
